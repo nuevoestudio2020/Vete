@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Textbox Name="Textbox11">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Numero de ficha:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox5</rd:DefaultName>
+        <Top>0.50302cm</Top>
+        <Left>0.43969cm</Left>
+        <Height>0.57355cm</Height>
+        <Width>3.16146cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox12">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Observaciones</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox5</rd:DefaultName>
+        <Top>1.58781cm</Top>
+        <Left>6.16791cm</Left>
+        <Height>0.57355cm</Height>
+        <Width>2.76459cm</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox21">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Firma y sello del veterinario</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox5</rd:DefaultName>
+        <Top>19.75587cm</Top>
+        <Left>9.41303cm</Left>
+        <Height>0.57355cm</Height>
+        <Width>4.93417cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Line Name="Line2">
+        <Top>19.72059cm</Top>
+        <Left>8.39042cm</Left>
+        <Height>0cm</Height>
+        <Width>7.05083cm</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Line>
+      <Textbox Name="Textbox22">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Fecha:</Value>
+                <Style>
+                  <FontFamily>Century Gothic</FontFamily>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox5</rd:DefaultName>
+        <Top>19.75587cm</Top>
+        <Left>0.79417cm</Left>
+        <Height>0.57355cm</Height>
+        <Width>1.5cm</Width>
+        <ZIndex>4</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox9">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=now</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox9</rd:DefaultName>
+        <Top>19.75587cm</Top>
+        <Left>2.29417cm</Left>
+        <Height>0.6cm</Height>
+        <Width>5.56917cm</Width>
+        <ZIndex>5</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Ficha">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Ficha.Value, "DataSet2")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Ficha</rd:DefaultName>
+        <Top>0.47657cm</Top>
+        <Left>3.60115cm</Left>
+        <Height>0.6cm</Height>
+        <Width>11.8401cm</Width>
+        <ZIndex>6</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Observaciones">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Observaciones.Value, "DataSet2")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Observaciones</rd:DefaultName>
+        <Top>2.58495cm</Top>
+        <Left>0.43969cm</Left>
+        <Height>13.19417cm</Height>
+        <Width>15.00156cm</Width>
+        <ZIndex>7</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>21cm</Height>
+    <Style />
+  </Body>
+  <Width>16cm</Width>
+  <Page>
+    <PageHeader>
+      <Height>4cm</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="Textbox6">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>FICHA CLINICA</Value>
+                  <Style>
+                    <FontFamily>Century Gothic</FontFamily>
+                    <FontSize>18pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox5</rd:DefaultName>
+          <Top>1.50156cm</Top>
+          <Left>2.35791cm</Left>
+          <Height>0.99688cm</Height>
+          <Width>11.28417cm</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Image Name="Image1">
+          <Source>Embedded</Source>
+          <Value>veterinario1</Value>
+          <Sizing>FitProportional</Sizing>
+          <Top>0.99844cm</Top>
+          <Left>0.43969cm</Left>
+          <Height>1.5cm</Height>
+          <Width>1.5cm</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </Image>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+        <BackgroundColor>LightGreen</BackgroundColor>
+      </Style>
+    </PageHeader>
+    <PageHeight>29.7cm</PageHeight>
+    <PageWidth>21cm</PageWidth>
+    <LeftMargin>2cm</LeftMargin>
+    <RightMargin>2cm</RightMargin>
+    <TopMargin>2cm</TopMargin>
+    <BottomMargin>2cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="Vete">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>7b4ed154-de0e-462a-9f85-7607bb142ea1</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet2">
+      <Query>
+        <DataSourceName>Vete</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Ficha">
+          <DataField>Ficha</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Observaciones">
+          <DataField>Observaciones</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>Vete</rd:DataSetName>
+        <rd:TableName>DatosFicha</rd:TableName>
+        <rd:ObjectDataSourceType>Vete.DatosFicha, Vete, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="veterinario1">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>90db52bb-ba24-4968-b4ff-d7ba5da19600</rd:ReportID>
+</Report>
